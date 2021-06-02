@@ -6,12 +6,12 @@ namespace dev_homework01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! - My name is: Francisco");
+            Console.WriteLine("Hello World! - My name is: César");
 
             //Constantes
-            const string nombre = "Francisco";
+            const string nombre = "César";
             //Variables
-            int edad = 32;
+            int edad = 16;
         
             Console.WriteLine($"Mi nombre es: {nombre} y mi edad es { edad } años.");
 
@@ -57,21 +57,69 @@ namespace dev_homework01
               5) Investigar el problema de los conejos de Fibonacci (programar la respuesta.)            
             */
 
-            Console.WriteLine("\n"); //Salto de linea
-            Console.WriteLine("**************************************");
-            Console.WriteLine("TAREA - Ejercicio 01");
-            Console.WriteLine("Área de un Triángulo");
+                    // Tarea 1
 
-            var x = 10;
-            var y = 20;
+            var areaTriangulo2 = 0F;
+
+            float basse1 = 15.382F;
+            float altura1 = 8.45F;
+            const float doss = 2.0F;
+            areaTriangulo2 = basse1 * altura1 / doss; 
+
+            Console.WriteLine ($"Area de un triangulo es igual a la base: ({basse1}) por la altura({altura1}) entre dos: ({doss})");
+            Console.WriteLine ($"Resultado Area: {areaTriangulo2} ");
             
-            Console.WriteLine($"Base: { x }");
-            Console.WriteLine($"Altura: { y }");
-            Console.WriteLine($"área es igual: { (x*y)/2 }");
-            Console.WriteLine("**************************************");
-            Console.WriteLine("\n");
+           // Tarea 2 
 
+           var porcentaje = 0F;
 
-        }
+           float sueldoo = 100000F;
+           float multiplicacion = 10F;
+           float dividendo = 100F;
+           porcentaje = sueldoo * multiplicacion / dividendo;
+
+           Console.WriteLine ($"Si mi sueldo es de $100,000, ¿cuanto es el 10%?");
+           Console.WriteLine ($"Respuesta: {porcentaje}");
+
+           // Tarea 3
+
+           var dinero1 = 0F;
+
+           float domngo = 15F;
+           float días = 52F;
+           float años = 3F;
+           dinero1 = (domngo * días) * años;
+
+           Console.WriteLine ($"Si de domingo me dan 15 pesos ¿cuanto dinero junte en 3 años?");
+           Console.WriteLine ($"Respuesta: {dinero1} ");
+
+           //Tarea 4
+
+           var total = 0F;
+
+           float domingo2 = 780F;
+           float domingo3 = 936F;
+           float domingo4 = 1123.2F;
+           float doming = 1349.92F;
+           float omingo = 1619.94F;
+           total = domingo2 + domingo3 + domingo4 + doming + omingo;
+
+           Console.WriteLine ($"Si de domingo me dan 15 pesos y cada año me aumentan 20% ¿cuanto dinero junte en 5 años?");
+           Console.WriteLine ($"respuesta: {total} ");
+
+           // Tarea 5
+
+           float bunny1 = 610F;
+           float bunny2 = 987F;
+           float bunny3 = 1597F;
+           float bunny4 = 2584F;
+           float bunny5 = 4181F;
+
+           Console.WriteLine ($"Para sacar saber como es la respuesta hay que ir sumando los dos numeros anteriores");
+           Console.WriteLine ($"Ejemplo: ({bunny1}) + ({bunny2}) = {bunny3} ");
+           Console.WriteLine ($"Para poder sacar los en que mes es hay que hacer la operación anterior, para poder sacar el mes en que hubo {bunny5} ");
+           Console.WriteLine ($"Hay que sumar los dos anterios, y nos quedaria asi: {bunny3} + {bunny4} = {bunny5} ");
+           Console.WriteLine ($"asi vemos que en el mes 18 hay {bunny5} ");
+
     }
-}
+}}
